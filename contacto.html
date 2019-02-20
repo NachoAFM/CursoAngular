@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Super Web</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/super.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body class="page">
+
+<div>
+	<a id="movilLogo" href="index.html">Super Web</a>
+	<a id="logo" href="index.html"><img class="logo" src="img/logo.png"></a>
+</div>
+
+<div class="cabecera">	
+	<div class="formRight search">		
+		<input class="control" type="text" placeholder="Buscar..." name="buscar">
+		<img src="img/lupa.png">				
+	</div>
+	<div class="formRight">
+		<ul>
+			<li class="menuLargo"><a class="headerLinkright" href="">Noticias</a></li>
+			<li class="menu"><a class="headerLink" href="">Opinión</a></li>
+			<li class="menu"><a class="headerLink" href="">Formación</a></li>
+			<li class="menu"><a class="headerLink" href="contacto.html">Contacto</a></li>
+		</ul>
+    </div>
+</div>
+
+	<form class="formBlock">
+
+		<h1 >Formulario de contacto</h1>
+
+		<fieldset>
+			<h2 class="formTittle">Datos personales</h2>
+			<div>
+				<span class="formLabel"><label>Nombre</label></span>
+				<span ><input class="formTextbox control" type="text" name="nombre"></input></span>
+			</div>
+			<div>
+				<span class="formLabel"><label>Apellidos</label></span>
+				<span><input class="formTextbox control" type="text" name="apellidos"></input></span>
+			</div>    
+			<div>
+				<span class="formLabel"><label>Direccion</label></span>
+				<span><input class="formTextbox control" type="text" name="direccion"></input></span>
+			</div>		
+			<div>
+				<div class="column">
+					<span class="formGridDoubleLabel"><label>Teléfono</label></span>
+					<span><input class="formGridDoubleTextbox control" type="text" name="telefono"></input></span>
+				</div>
+				<div class="column">
+					<span class="formGridDoubleLabel"><label>Email</label></span>
+					<span><input class="formGridDoubleTextbox control" type="text" name="email"></input></span>	
+				</div>	
+			</div>
+		</fieldset>
+		<P class="separator"></P>
+
+		<fieldset>
+		<h2 class="formTittle">Aficiones</h2>
+		<div>	
+			<span>
+				 <fieldset class="column">   
+					<div>
+						<legend>Grupo de checkboxes:</legend> 
+					</div>
+					<div>
+						<span><label >Checkbox 1</label></span> 
+						<span><input class="checkbox" type="checkbox" name="favorite_pet" value="Checkbox1"></span>						
+					</div>
+					<div>
+						<span><label>Checkbox 2</label></span>   
+						<span><input class="checkbox" type="checkbox" name="favorite_pet" value="Checkbox2"></span>
+					</div>  
+					 <div>
+						<span><label>Checkbox 3</label></span>  
+						<span><input class="checkbox" type="checkbox" name="favorite_pet" value="Checkbox3"></span>
+					 </div>					     					     
+				</fieldset>
+			</span>
+				     
+			<span>
+				<fieldset class="column">  
+					<div>
+						<legend>Grupo de radiobuttons:</legend>
+					</div>
+					<div>
+						<label >Radiobutton 1</label>     
+						<input class="checkbox" type="radio" name="favorite_pet" value="Radiobutton1">
+					</div>
+					<div>
+						<label >Radiobutton 2</label>   
+						<input class="checkbox" type="radio" name="favorite_pet" value="Radiobutton2"> 
+					</div>
+					<div>
+						<label >Radiobutton 3</label>    
+						<input class="checkbox" type="radio" name="favorite_pet" value="Radiobutton3">
+					</div>    				      
+				</fieldset>
+			</span>
+		</div>	
+		<div >
+			<span class="column">
+				<label>Opciones 1</label>
+				<select class="dropdpwn control">
+					<option value="option1">Opción 1</option>
+					<option value="option2">Opción 2</option>
+					<option value="option3">Opción 3</option>
+				</select>
+			</span>
+			<span class="column">
+				<label>Opciones 2</label>
+				<select class="dropdpwn control">
+					<option value="option1">Opción 1</option>
+					<option value="option2">Opción 2</option>
+					<option value="option3">Opción 3</option>
+				</select>
+			</span>
+		</div>
+		</fieldset>  
+		<P class="separator"></P>
+		
+		<div class="formCenter">
+			<div class="formLeft">
+				<label>Comentarios</label>
+			</div>
+			<textarea class="textArea"></textarea>
+		</div>		
+		<div class="formCenter">
+			<input class="control buttonSend" type="button" value="Enviar"></input>
+		</div>	
+			
+	</form>
+	
+</body>
+
+<footer>
+	<div class="footer">
+		<span class="column">
+			<p class="footerLink">SuperWeb es una marca registrada de Super Web Entreprises, Wisconsin, Alabama</p>
+			<p class="footerLink">SuperWeb Calle Jon 23, 90210, Valdedebas de Arriba</p>
+			<p class="footerLink">&copy SuperWeb 2019</p>
+		</span>
+			
+		<span class="columnright">
+			<div class="formRight">
+				<a class="footerLink" href="url">Mapa Web</a>
+				<a class="footerLink" href="url">Información legal</a>
+				<a class="footerLink" href="url">Política de cookies</a>
+			</div>
+			<div class="formRight">
+				<img class="sprite facebook" src="img/media.png" alt="icono facebook">
+				<img class="sprite twitter" src="img/media.png" alt="icono twitter">
+				<img class="sprite pinterest" src="img/media.png" alt="icono pinterest">
+				<img class="sprite googleplus" src="img/media.png" alt="icono googleplus">
+			</div>
+		</span>
+	</div>	
+</footer>
+
+</html>

@@ -1,0 +1,319 @@
+.formBlock{
+    background-color:#ffffcc;
+    margin-left: 20%;
+    margin-right: 20%;  
+    justify-content: flex-end;
+}
+
+.page{
+    background-color: #ffffcc;
+}
+
+.formLabel{
+    width:15%;
+    display:inline-block;
+    padding-right: 1%;
+    text-align: right;
+}
+
+.formLabelcheck{
+    width:20%;
+    display:inline-block;
+    padding-right: 1%;
+    text-align: right;
+}
+
+.formTextbox{
+    width:84%;
+}
+
+.inlineGridDouble{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formTittle{
+    text-align: center;
+}
+
+.formGridDoubleTextbox{
+    width: 70%;
+}
+
+.formGridDoubleLabel{
+    width:28%;
+    display:inline-block;
+    padding-right: 1%;
+    text-align: right;;
+}
+
+.formCenter{
+    text-align: center;
+}
+
+.formLeft{
+    text-align: left;
+}
+
+.formRight{
+    text-align: right;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.noticia{
+    margin-top: 1em;
+    float: left;
+    width: 65%;
+    padding: 1em;
+}
+
+.sideRight{
+    margin-top: 0.2em;
+    float: left;
+    width: 35%;
+    padding: 1em;
+}
+
+.columnright {
+    float: right;
+    width: 35%;
+    padding: 10px;
+}
+
+.textArea{
+    width: 100%;
+    height: 100px;
+    border-radius: 0.5em;
+    border-color: orange;
+}
+
+.buttonSend{
+    width: 25%;
+    height: 35px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+
+.dropdpwn{
+    width:70%;
+
+}
+
+.control{
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    border-radius: 0.5em;
+    border-color: orange;
+    height: 2em;
+}
+.checkbox{
+    margin-left: 3em;
+}
+  
+h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 5em;
+    margin-bottom: 2%;
+}
+
+h2{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h4{
+    font-size: 1.2em;
+    font-weight: bold;
+    color:white;
+    background-color: orange;
+    padding-left: 0.5em;
+    padding-bottom: 0.2em;
+    padding-top:0.2em;
+}
+
+#movilLogo{
+    display: none;
+}
+
+.separator{
+    border-bottom: 0.2em solid orange;
+    margin-top: 1em;
+    margin-bottom: 1em;   
+}
+
+.separatorNoticia{
+    border-bottom: 0.1em solid black;
+    
+}
+
+/*sprite redes sociales para el footer*/
+.sprite {
+    background: url("images/mySprite.png") no-repeat;
+    object-fit: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.facebook {
+    width: 45px; /* Icon width */
+    height: 45px; /* Icon height */
+    object-position: 0 0px;
+}
+
+.twitter {
+    width: 45px; /* Icon width */
+    height: 45px; /* Icon height */
+    object-position: -45px 0px;
+}
+
+.pinterest {
+    width: 45px; /* Icon width */
+    height: 45px; /* Icon height */
+    object-position: -90px 0px;
+}
+
+.googleplus {
+    width: 45px; /* Icon width */
+    height: 45px; /* Icon height */
+    object-position: -135px 0px;
+}
+
+.footer{
+    background-color: gray;
+    margin-top: 3em;
+    clear: both;
+    overflow: auto;
+}
+
+.footerLink{
+    margin-left: 1em;
+    font-style: oblique;
+    font-size: 0.85em;
+    color: white;
+}
+
+.search{
+    margin: 2em;
+}
+
+.headerLink{
+    font-size: 1em;
+    color: black;
+}
+
+.headerLinkright{
+    font-size: 1em;
+    color: black;
+    padding-left: 42%;
+}
+
+.menu{
+    display: inline;
+    background-color: wheat;
+    padding-bottom: 0.8em;
+    padding-top: 0.8em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.menuLargo{
+    display: inline;
+    background-color: wheat;
+    padding-bottom: 0.8em;
+    padding-top: 0.8em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.cabecera{
+    background-color: orange;
+    height: 8.1em;
+    overflow: auto;
+    box-shadow: 0 8px 2px -2px gray;
+}
+
+.logo {
+    position: absolute;
+    top: 1%;
+    left:5%;
+    width: 20em;
+    height: auto;
+}
+
+.noticiaText{
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    font-size: 0.8em;
+}
+
+.sideNoticia{
+    float: right;
+    width: 59%;
+    padding-right: 0.5em;
+}
+
+.sideImagen{
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    float: left;
+    margin-left: 0.8em;
+    max-width:40%;
+    height:auto;
+    width:auto;
+}
+
+.sideSection{
+    border: orange;
+    border-width: 0.1em;
+    border-style: solid;
+    overflow: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.opinionText{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    width: 220px;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-right: 4.5em;
+}
+
+.opinionImagen{
+   width: 220px;
+}
+
+.container {
+    width: 33%;
+    float: left;
+    margin-top:1em;
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.noticiaTitulo{
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.imagen{
+    width: 100%;
+}
